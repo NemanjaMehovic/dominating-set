@@ -1,0 +1,191 @@
+test/graph 11 nodes.txt
+11 -> 8 9 10 
+1 -> 2 3 
+2 -> 1 3 4 8 
+3 -> 1 2 
+4 -> 2 5 6 7 8 
+5 -> 4 6 7 
+6 -> 4 5 7 
+7 -> 4 5 6 
+8 -> 2 4 9 10 11 
+9 -> 8 10 11 
+10 -> 8 9 11 
+Number of nodes: 11
+Number of edges: 18
+Maximum degrees: 5
+Average degrees: 3.272727272727273
+Solving: Greedy algorithm
+Iteration: 0
+Time: 1663804481655
+Iteration: 1
+Time: 1663804481655
+Iteration: 2
+Time: 1663804481656
+Iteration: 3
+Time: 1663804481656
+Iteration: 4
+Time: 1663804481656
+Iteration: 5
+Time: 1663804481657
+Iteration: 6
+Time: 1663804481657
+Iteration: 7
+Time: 1663804481657
+Iteration: 8
+Time: 1663804481658
+Iteration: 9
+Time: 1663804481658
+Iteration: 10
+Time: 1663804481658
+Greedy algorithm
+4 -> 2 5 6 7 8 
+8 -> 2 4 9 10 11 
+1 -> 2 3 
+Time in nanoseconds : 150600
+
+Solving: Fomin set cover algorithm
+Iteration: 0
+Time: 1663804481658
+Iteration: 1
+Time: 1663804481710
+Iteration: 2
+Time: 1663804481711
+Iteration: 3
+Time: 1663804481711
+Iteration: 4
+Time: 1663804481711
+Iteration: 5
+Time: 1663804481712
+Iteration: 6
+Time: 1663804481712
+Iteration: 7
+Time: 1663804481713
+Iteration: 8
+Time: 1663804481713
+Iteration: 9
+Time: 1663804481714
+Iteration: 10
+Time: 1663804481714
+Fomin set cover algorithm
+11 -> 8 9 10 
+2 -> 1 3 4 8 
+4 -> 2 5 6 7 8 
+Time in nanoseconds : 450600
+
+Solving: Rooij set cover algorithm
+Iteration: 0
+Time: 1663804481715
+Iteration: 1
+Time: 1663804481715
+Iteration: 2
+Time: 1663804481716
+Iteration: 3
+Time: 1663804481716
+Iteration: 4
+Time: 1663804481717
+Iteration: 5
+Time: 1663804481717
+Iteration: 6
+Time: 1663804481718
+Iteration: 7
+Time: 1663804481718
+Iteration: 8
+Time: 1663804481719
+Iteration: 9
+Time: 1663804481719
+Iteration: 10
+Time: 1663804481719
+Rooij set cover algorithm
+11 -> 8 9 10 
+2 -> 1 3 4 8 
+4 -> 2 5 6 7 8 
+Time in nanoseconds : 322100
+
+Solving: Basic set cover
+Iteration: 0
+Time: 1663804481720
+Iteration: 1
+Time: 1663804481724
+Iteration: 2
+Time: 1663804481726
+Iteration: 3
+Time: 1663804481728
+Iteration: 4
+Time: 1663804481729
+Iteration: 5
+Time: 1663804481731
+Iteration: 6
+Time: 1663804481731
+Iteration: 7
+Time: 1663804481732
+Iteration: 8
+Time: 1663804481733
+Iteration: 9
+Time: 1663804481734
+Iteration: 10
+Time: 1663804481734
+Basic set cover
+11 -> 8 9 10 
+1 -> 2 3 
+4 -> 2 5 6 7 8 
+Time in nanoseconds : 752700
+
+Solving: All combinations check
+Iteration: 0
+Time: 1663804481735
+Iteration: 1
+Time: 1663804481739
+Iteration: 2
+Time: 1663804481740
+Iteration: 3
+Time: 1663804481743
+Iteration: 4
+Time: 1663804481744
+Iteration: 5
+Time: 1663804481745
+Iteration: 6
+Time: 1663804481747
+Iteration: 7
+Time: 1663804481747
+Iteration: 8
+Time: 1663804481748
+Iteration: 9
+Time: 1663804481749
+Iteration: 10
+Time: 1663804481750
+All combinations check
+11 -> 8 9 10 
+1 -> 2 3 
+4 -> 2 5 6 7 8 
+Time in nanoseconds : 601200
+
+Greedy algorithm
+119700 143600 147100 150600 220200 268600 286100 290300 341100 446300 
+Median value: 277350.000000
+Average value: 241360.000000
+Min value: 119700
+
+Fomin set cover algorithm
+291300 309000 335800 345400 436300 438500 450600 473900 504100 557400 
+Median value: 444550.000000
+Average value: 414230.000000
+Min value: 291300
+
+Rooij set cover algorithm
+268500 269400 317800 320700 322100 326200 335100 344800 367200 456900 
+Median value: 330650.000000
+Average value: 332870.000000
+Min value: 268500
+
+Basic set cover
+586000 619200 624300 746200 752700 845900 1083200 1411100 1490900 2365000 
+Median value: 964550.000000
+Average value: 1052450.000000
+Min value: 586000
+
+All combinations check
+601200 620000 672200 686700 936000 1177100 1189800 1373400 1655900 2059600 
+Median value: 1183450.000000
+Average value: 1097190.000000
+Min value: 601200
+
